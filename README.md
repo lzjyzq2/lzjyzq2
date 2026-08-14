@@ -48,7 +48,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lzjyzq2&theme=default&bg_color=12110D&title_color=F2EEE4&text_color=9B9588" />
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lzjyzq2&theme=default&bg_color=F4EFE6&title_color=16140F&text_color=6F6A5E" alt="Top Languages by Repo / 仓库常用语言" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lzjyzq2&theme=default&bg_color=F4EFE6&title_color=16140F&text_color=6F6A5E" alt="Top Languages by Repo / 仓库常用语言" width="100%" />
   </picture>
 </p>
 
@@ -60,7 +60,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lzjyzq2&theme=default&bg_color=12110D&title_color=F2EEE4&text_color=9B9588&icon_color=FF5A52" />
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lzjyzq2&theme=default&bg_color=F4EFE6&title_color=16140F&text_color=6F6A5E&icon_color=C8372F" alt="Profile details / 数据概览" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lzjyzq2&theme=default&bg_color=F4EFE6&title_color=16140F&text_color=6F6A5E&icon_color=C8372F" alt="Profile details / 数据概览" width="100%" />
   </picture>
 </p>
 
