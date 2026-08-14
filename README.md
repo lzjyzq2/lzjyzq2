@@ -64,13 +64,6 @@
   </picture>
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=lzjyzq2&hide_border=true&background=12110D&ring=FF5A52&fire=FF5A52&currStreakLabel=F2EEE4&sideLabels=9B9588&dates=9B9588&sideNums=F2EEE4&currStreakNum=F2EEE4" />
-    <img src="https://streak-stats.demolab.com/?user=lzjyzq2&hide_border=true&background=F4EFE6&ring=C8372F&fire=C8372F&currStreakLabel=16140F&sideLabels=6F6A5E&dates=6F6A5E&sideNums=16140F&currStreakNum=16140F" alt="GitHub streak / 连续贡献" />
-  </picture>
-</p>
-
 <br>
 
 <!-- ── ③ 找到我 ────────────────────────────────────────────── -->
