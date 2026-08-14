@@ -42,6 +42,10 @@
 ## ◧ &nbsp; The Stack &nbsp;·&nbsp; 技术栈
 
 <p align="center">
+  <sup><i>The shape of my work, measured in the languages I commit to most. / 作品的形状，以我投入最多的语言丈量。</i></sup>
+</p>
+
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lzjyzq2&theme=default&bg_color=12110D&title_color=F2EEE4&text_color=9B9588" />
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lzjyzq2&theme=default&bg_color=F4EFE6&title_color=16140F&text_color=6F6A5E" alt="Top Languages by Repo / 仓库常用语言" />
@@ -55,8 +59,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=lzjyzq2&show_icons=true&count_private=true&hide_border=true&bg_color=12110D&title_color=F2EEE4&text_color=9B9588&icon_color=FF5A52&ring_color=FF5A52" />
-    <img src="https://github-readme-stats.vercel.app/api?username=lzjyzq2&show_icons=true&count_private=true&hide_border=true&bg_color=F4EFE6&title_color=16140F&text_color=6F6A5E&icon_color=C8372F&ring_color=C8372F" alt="GitHub stats / GitHub 统计" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lzjyzq2&theme=default&bg_color=12110D&title_color=F2EEE4&text_color=9B9588&icon_color=FF5A52" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lzjyzq2&theme=default&bg_color=F4EFE6&title_color=16140F&text_color=6F6A5E&icon_color=C8372F" alt="Profile details / 数据概览" />
   </picture>
 </p>
 
