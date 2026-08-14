@@ -13,46 +13,59 @@ const langs = [
 
 // magazine palette
 const INK = "#16140F";
-const MUTED = "#6F6A5E";
 const PAPER = "#F4EFE6";
 
-const ROW_H = 46;
-const ICON_SIZE = 30;
-const BAR_X = 250;      // where the bar chart starts
-const BAR_MAX = 320;    // max bar width in px
-const NAME_W = 150;     // width reserved for name col
-const START_Y = 70;
-const W = 760;
-const H = START_Y + langs.length * ROW_H + 20;
+const ROW_H = 44;
+const BAR_H = 14;
+const ICON_SIZE = 26;
+const ICON_GAP = 14;       // space between icon and name
+const NAME_GAP = 56;       // space between name and bar
+const NAME_W = 130;        // name column width (right-aligned)
+const BAR_MAX = 300;       // max bar width in px
+const PAD_X = 24;          // left/right padding
+const PAD_Y = 20;          // top/bottom padding
+
+const BAR_X = PAD_X + ICON_SIZE + ICON_GAP + NAME_W + NAME_GAP;
+const PCT_X = BAR_X + BAR_MAX + 16;
+const W = PCT_X + 70;
+const H = PAD_Y * 2 + langs.length * ROW_H;
 
 function bar(percent, color){
   const filled = Math.round((percent / 100) * BAR_MAX);
   const empty = BAR_MAX - filled;
-  // use rects for crisp bars (character-art feel via block look)
-  return `<rect x="${BAR_X}" y="0" width="${filled}" height="16" rx="3" fill="${color}"/>` +
-         `<rect x="${BAR_X+filled}" y="0" width="${empty}" height="16" rx="3" fill="#E7E2D6" opacity="0.6"/>`;
+  return `<rect x="${BAR_X}" y="0" width="${filled}" height="${BAR_H}" fill="${color}"/>` +
+         `<rect x="${BAR_X+filled}" y="0" width="${empty}" height="${BAR_H}" fill="#E4DFD2"/>`;
 }
 
 let rows = "";
 langs.forEach((lang, i) => {
   const [name, skill, color, pct] = langs[i];
-  const y = START_Y + i * ROW_H;
+  const cy = PAD_Y + i * ROW_H + ROW_H / 2;   // vertical center of the row
   const icon = icons[name] || "";
-  // dark rounded badge behind icon so white glyphs are visible on light paper
-  const iconBg = `<rect x="0" y="${y - ICON_SIZE + 4}" width="${ICON_SIZE}" height="${ICON_SIZE}" rx="6" fill="${INK}"/>`;
-  const iconGroup = `<g transform="translate(0,${y - ICON_SIZE + 4}) scale(${ICON_SIZE/256})">${icon}</g>`;
-  const nameText = `<text x="46" y="${y+6}" font-family="Georgia,'Times New Roman',serif" font-size="20" font-weight="600" fill="${INK}">${name}</text>`;
-  const barGroup = '<g transform="translate(0,' + (y - 10) + ')">' + bar(pct, color) + '</g>';
-  const pctText = `<text x="${BAR_X + BAR_MAX + 12}" y="${y+6}" font-family="'SFMono-Regular','JetBrains Mono',monospace" font-size="16" font-weight="700" fill="${color}">${pct}%</text>`;
+
+  // icon badge (sharp corners), vertically centered
+  const iconTop = cy - ICON_SIZE / 2;
+  const iconBg = `<rect x="${PAD_X}" y="${iconTop}" width="${ICON_SIZE}" height="${ICON_SIZE}" fill="${INK}"/>`;
+  const iconGroup = `<g transform="translate(${PAD_X},${iconTop}) scale(${ICON_SIZE/256})">${icon}</g>`;
+
+  // name (right-aligned, vertically centered via dominant-baseline)
+  const nameX = PAD_X + ICON_SIZE + ICON_GAP + NAME_W;
+  const nameText = `<text x="${nameX}" y="${cy}" font-family="Georgia,'Times New Roman',serif" font-size="18" font-weight="600" fill="${INK}" text-anchor="end" dominant-baseline="central">${name}</text>`;
+
+  // bar, vertically centered
+  const barTop = cy - BAR_H / 2;
+  const barGroup = '<g transform="translate(0,' + barTop + ')">' + bar(pct, color) + '</g>';
+
+  // percentage (left-aligned, vertically centered)
+  const pctText = `<text x="${PCT_X}" y="${cy}" font-family="'SFMono-Regular','JetBrains Mono',monospace" font-size="15" font-weight="700" fill="${color}" dominant-baseline="central">${pct}%</text>`;
+
   rows += iconBg + iconGroup + nameText + barGroup + pctText;
 });
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Tech stack / 技术栈">
-  <rect width="${W}" height="${H}" fill="${PAPER}" rx="8"/>
-  <text x="0" y="40" font-family="Georgia,'Times New Roman',serif" font-size="24" font-weight="700" fill="${INK}">The Stack</text>
-  <text x="92" y="40" font-family="Georgia,'Times New Roman',serif" font-size="24" font-weight="400" fill="${MUTED}">· 技术栈</text>
+  <rect width="${W}" height="${H}" fill="${PAPER}"/>
   ${rows}
 </svg>`;
 
 fs.writeFileSync("stack.svg", svg);
-console.log("wrote stack.svg", svg.length, "bytes");
+console.log("wrote stack.svg", svg.length, "bytes", "dims", W + "x" + H);
