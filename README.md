@@ -32,7 +32,7 @@
 <!-- ── ② 精选作品 ──────────────────────────────────────────── -->
 ## ◧ &nbsp; Selected Works &nbsp;·&nbsp; 精选作品
 
-| | |
+| № | 作品 / Works |
 | --- | --- |
 | <sup>01</sup> | **[ zlua ](https://github.com/lzjyzq2/zlua)** &nbsp;—&nbsp; 一个 Java 实现的 Lua 虚拟机 / A Lua VM implemented in Java |
 | <sup>02</sup> | **[ varlet ](https://github.com/varletjs/varlet)** &nbsp;—&nbsp; 基于 Material Design 2 & 3 的 Vue3 组件库，支持移动端与桌面端 / A Vue3 component library based on Material Design 2 & 3 |
