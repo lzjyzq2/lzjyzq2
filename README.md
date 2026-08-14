@@ -60,6 +60,10 @@
 ## ◧ &nbsp; By The Numbers &nbsp;·&nbsp; 数据之上
 
 <p align="center">
+  <sub><i>Numbers don't argue — they just keep score. / 数据不争辩，它只是忠实记分。</i></sub>
+</p>
+
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lzjyzq2&theme=default&bg_color=12110D&title_color=F2EEE4&text_color=9B9588&icon_color=FF5A52" />
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lzjyzq2&theme=default&bg_color=F4EFE6&title_color=16140F&text_color=6F6A5E&icon_color=C8372F" alt="Profile details / 数据概览" width="100%" />
