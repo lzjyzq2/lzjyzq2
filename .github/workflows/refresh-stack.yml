@@ -1,0 +1,37 @@
+name: refresh-stack
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # every Monday at 06:00 UTC
+  workflow_dispatch:        # allow manual run
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      HTTPS_PROXY: ${{ secrets.HTTPS_PROXY }}   # optional: set in repo secrets if needed
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: generate stack.svg from live language data
+        run: node build_stack.js
+
+      - name: commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add stack.svg
+          if git diff --cached --quiet; then
+            echo "no changes to stack.svg"
+          else
+            git commit -m "chore: refresh stack.svg from live repo data"
+            git push
+          fi
