@@ -63,6 +63,18 @@
 
 <br>
 
+<!-- ── 贪吃蛇活动图（自动）──────────────────────────────────── -->
+## ◧ &nbsp; Activity &nbsp;·&nbsp; 活动
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lzjyzq2/lzjyzq2/output/github-contribution-grid-snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/lzjyzq2/lzjyzq2/output/github-contribution-grid-snake.svg" alt="GitHub activity snake / 贪吃蛇活动图" width="100%" />
+  </picture>
+</p>
+
+<br>
+
 <!-- ── ③ 找到我 ────────────────────────────────────────────── -->
 ## ◧ &nbsp; Find Me &nbsp;·&nbsp; 找到我
 
