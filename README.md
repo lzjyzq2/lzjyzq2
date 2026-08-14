@@ -20,10 +20,12 @@
 <!-- ── ① 编者语 ────────────────────────────────────────────── -->
 > ### ◇ &nbsp; A Note From The Editor &nbsp;·&nbsp; 编者语
 >
-> *[ 在此写下中英文个人简介，例如：你是谁、在意什么、正在做什么。一两句真心话胜过一串流行词。 ]*
+> 我是街上的游魂，而你是闻到我的人。
+>
+> *I wander these streets as a restless soul — and you're the one who caught my scent.*
 >
 > &nbsp;&nbsp;&nbsp;&nbsp; **— lzjyzq2**
-> &nbsp;&nbsp;&nbsp;&nbsp; *[ 城市 / 时区 ]*
+> &nbsp;&nbsp;&nbsp;&nbsp; 成都 · China Standard Time (UTC+8)
 
 <br>
 
@@ -32,9 +34,12 @@
 
 | | |
 | --- | --- |
-| <sup>01</sup> | **[ one ](https://github.com/lzjyzq2/one)** &nbsp;—&nbsp; *[ 项目简介 ]* |
-| <sup>02</sup> | **[ two ](https://github.com/lzjyzq2/two)** &nbsp;—&nbsp; *[ 项目简介 ]* |
-| <sup>03</sup> | **[ three ](https://github.com/lzjyzq2/three)** &nbsp;—&nbsp; *[ 项目简介 ]* |
+| <sup>01</sup> | **[ zlua ](https://github.com/lzjyzq2/zlua)** &nbsp;—&nbsp; 一个 Java 实现的 Lua 虚拟机 / A Lua VM implemented in Java |
+| <sup>02</sup> | **[ varlet ](https://github.com/varletjs/varlet)** &nbsp;—&nbsp; 基于 Material Design 2 & 3 的 Vue3 组件库，支持移动端与桌面端 / A Vue3 component library based on Material Design 2 & 3 |
+| <sup>03</sup> | **[ UbiGamesBackupTool ](https://github.com/lzjyzq2/UbiGamesBackupTool)** &nbsp;—&nbsp; 育碧游戏存档备份工具 / Ubisoft game save backup tool |
+| <sup>04</sup> | **[ Aircraft ](https://github.com/lzjyzq2/Aircraft)** &nbsp;—&nbsp; 基于 Java Swing 实现的飞机大战游戏 / A shoot-'em-up game built with Java Swing |
+| <sup>05</sup> | **[ Lson ](https://github.com/lzjyzq2/Lson)** &nbsp;—&nbsp; 一个 Java 实现的 JSON 解析器 / A JSON parser written in Java |
+| <sup>06</sup> | **[ FileServer ](https://github.com/lzjyzq2/FileServer)** &nbsp;—&nbsp; 基于 NanoHttpd 二次开发的文件上传 WebServer / A file-upload server built on NanoHttpd |
 
 <br>
 
@@ -79,10 +84,10 @@
 ## ◧ &nbsp; Find Me &nbsp;·&nbsp; 找到我
 
 <p align="center">
-  <a href="mailto:you@example.com">✉️ <b>Email / 邮箱</b></a> &nbsp;·&nbsp;
-  <a href="https://twitter.com/yourhandle">𝕏 <b>Twitter / X</b></a> &nbsp;·&nbsp;
-  <a href="https://linkedin.com/in/yourhandle">in <b>LinkedIn</b></a> &nbsp;·&nbsp;
-  <a href="https://yourwebsite.com">◉ <b>Website / 网站</b></a> &nbsp;·&nbsp;
+  <a href="mailto:lzjyzq2@qq.com">✉️ <b>Email / 邮箱</b></a> &nbsp;·&nbsp;
+  <a href="https://space.bilibili.com/5725142">▶ <b>Bilibili</b></a> &nbsp;·&nbsp;
+  <a href="https://lzjyzq2.settile.cn">◉ <b>Website / 网站</b></a> &nbsp;·&nbsp;
+  <a href="https://www.xiaohongshu.com/user/profile/66bf3e8d000000001d0339d8">◎ <b>XHS / 小红书</b></a> &nbsp;·&nbsp;
   <a href="https://github.com/lzjyzq2">⌥ <b>GitHub</b></a>
 </p>
 
