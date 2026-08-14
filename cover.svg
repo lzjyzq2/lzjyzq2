@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" role="img" aria-label="lzjyzq2 magazine cover">
+  <style>
+    :root {
+      --paper: #F4EFE6;
+      --ink: #16140F;
+      --rule: rgba(22,20,15,0.18);
+      --muted: #6F6A5E;
+      --accent: #C8372F;
+      --accent-soft: rgba(200,55,47,0.10);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --paper: #12110D;
+        --ink: #F2EEE4;
+        --rule: rgba(242,238,228,0.16);
+        --muted: #9B9588;
+        --accent: #FF5A52;
+        --accent-soft: rgba(255,90,82,0.14);
+      }
+    }
+    .bg   { fill: var(--paper); }
+    .i    { fill: var(--ink); }
+    .m    { fill: var(--muted); }
+    .a    { fill: var(--accent); }
+    .as   { fill: var(--accent-soft); }
+    .rk   { stroke: var(--ink); stroke-width: 1.2; }
+    .rk-h { stroke: var(--ink); stroke-width: 1.6; }
+    .sans { font-family: "Helvetica Neue", Arial, "Segoe UI", sans-serif; }
+    .serif{ font-family: Georgia, "Times New Roman", "Songti SC", serif; }
+    .mono { font-family: "SFMono-Regular", "JetBrains Mono", "Courier New", monospace; }
+  </style>
+
+  <!-- page -->
+  <rect class="bg" x="0" y="0" width="1200" height="420"/>
+
+  <!-- top folio -->
+  <line class="rk" x1="40" y1="46" x2="1160" y2="46"/>
+  <text class="mono m" x="46" y="33" font-size="11" letter-spacing="2.5">LZJYZQ2  •  ISSUE 01  •  AUG 2026</text>
+  <text class="mono m" x="1154" y="33" font-size="11" text-anchor="end" letter-spacing="2.5">A CULTURE &amp; CODE REVIEW</text>
+
+  <!-- masthead -->
+  <text class="serif i" x="46" y="188" font-size="156" font-weight="700" letter-spacing="-3">lzjyzq2</text>
+  <line class="rk-h" x1="46" y1="202" x2="560" y2="202"/>
+
+  <!-- deck -->
+  <text class="serif i" x="50" y="232" font-size="22" font-style="italic">Field notes on building, making &amp; the work between.</text>
+
+  <!-- cover lines -->
+  <g transform="translate(46,262)">
+    <text class="mono a" y="0" font-size="12" letter-spacing="3">FEATURES</text>
+    <text class="serif i" y="34" font-size="30">01  —  The Stack</text>
+    <text class="serif i" y="68" font-size="30">02  —  Selected Works</text>
+    <text class="serif i" y="102" font-size="30">03  —  By The Numbers</text>
+    <text class="serif i" y="136" font-size="30">04  —  Find Me</text>
+  </g>
+
+  <!-- giant issue mark -->
+  <circle class="as" cx="1010" cy="240" r="150"/>
+  <text class="serif a" x="1010" y="290" text-anchor="middle" font-size="220" font-weight="700" letter-spacing="-6" opacity="0.9">01</text>
+
+  <!-- vertical folio on the right -->
+  <text class="mono m" x="1170" y="250" text-anchor="middle" font-size="11" letter-spacing="3" transform="rotate(90,1170,250)">VOL. 01  •  WORLDWIDE  •  FREE</text>
+
+  <!-- bottom bar with barcode -->
+  <line class="rk" x1="40" y1="376" x2="1160" y2="376"/>
+  <text class="mono m" x="46" y="399" font-size="11" letter-spacing="2">LZJYZQ2.GITHUB.IO</text>
+  <text class="mono m" x="1154" y="399" font-size="11" text-anchor="end" letter-spacing="2">© 2026  •  PRINTED IN PIXELS</text>
+
+  <!-- barcode -->
+  <g transform="translate(900,382)" fill="var(--ink)">
+    <rect x="0"   y="0" width="2" height="28"/>
+    <rect x="4"   y="0" width="1" height="28"/>
+    <rect x="7"   y="0" width="3" height="28"/>
+    <rect x="12"  y="0" width="1" height="28"/>
+    <rect x="15"  y="0" width="2" height="28"/>
+    <rect x="20"  y="0" width="4" height="28"/>
+    <rect x="26"  y="0" width="1" height="28"/>
+    <rect x="29"  y="0" width="2" height="28"/>
+    <rect x="34"  y="0" width="3" height="28"/>
+    <rect x="39"  y="0" width="1" height="28"/>
+    <rect x="42"  y="0" width="2" height="28"/>
+    <rect x="47"  y="0" width="4" height="28"/>
+    <rect x="53"  y="0" width="1" height="28"/>
+    <rect x="56"  y="0" width="2" height="28"/>
+    <rect x="60"  y="0" width="3" height="28"/>
+    <rect x="65"  y="0" width="1" height="28"/>
+    <rect x="68"  y="0" width="2" height="28"/>
+    <rect x="73"  y="0" width="4" height="28"/>
+    <rect x="79"  y="0" width="1" height="28"/>
+    <rect x="82"  y="0" width="3" height="28"/>
+    <rect x="88"  y="0" width="2" height="28"/>
+    <rect x="92"  y="0" width="1" height="28"/>
+    <rect x="96"  y="0" width="3" height="28"/>
+    <rect x="101" y="0" width="2" height="28"/>
+    <rect x="105" y="0" width="4" height="28"/>
+    <rect x="111" y="0" width="1" height="28"/>
+    <rect x="114" y="0" width="2" height="28"/>
+    <rect x="119" y="0" width="3" height="28"/>
+    <rect x="124" y="0" width="1" height="28"/>
+    <rect x="127" y="0" width="2" height="28"/>
+    <rect x="132" y="0" width="4" height="28"/>
+    <rect x="138" y="0" width="1" height="28"/>
+    <rect x="141" y="0" width="3" height="28"/>
+    <rect x="147" y="0" width="2" height="28"/>
+    <rect x="151" y="0" width="1" height="28"/>
+    <rect x="154" y="0" width="3" height="28"/>
+    <rect x="159" y="0" width="2" height="28"/>
+    <rect x="163" y="0" width="4" height="28"/>
+    <rect x="169" y="0" width="1" height="28"/>
+    <rect x="172" y="0" width="2" height="28"/>
+    <rect x="176" y="0" width="3" height="28"/>
+    <rect x="181" y="0" width="1" height="28"/>
+    <rect x="184" y="0" width="2" height="28"/>
+    <rect x="189" y="0" width="4" height="28"/>
+    <rect x="195" y="0" width="1" height="28"/>
+    <rect x="198" y="0" width="3" height="28"/>
+    <rect x="203" y="0" width="2" height="28"/>
+    <rect x="207" y="0" width="1" height="28"/>
+    <rect x="210" y="0" width="3" height="28"/>
+    <rect x="216" y="0" width="2" height="28"/>
+    <rect x="220" y="0" width="4" height="28"/>
+    <rect x="226" y="0" width="1" height="28"/>
+    <rect x="229" y="0" width="2" height="28"/>
+    <rect x="234" y="0" width="3" height="28"/>
+    <rect x="239" y="0" width="1" height="28"/>
+    <rect x="242" y="0" width="2" height="28"/>
+    <rect x="247" y="0" width="4" height="28"/>
+    <rect x="253" y="0" width="1" height="28"/>
+  </g>
+</svg>
