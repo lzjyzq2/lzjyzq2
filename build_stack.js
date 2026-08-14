@@ -45,7 +45,7 @@ langs.forEach((lang, i) => {
 
   // icon badge (sharp corners), vertically centered
   const iconTop = cy - ICON_SIZE / 2;
-  const iconBg = `<rect x="${PAD_X}" y="${iconTop}" width="${ICON_SIZE}" height="${ICON_SIZE}" fill="${INK}"/>`;
+  const iconBg = `<rect x="${PAD_X}" y="${iconTop}" width="${ICON_SIZE}" height="${ICON_SIZE}" rx="5" fill="${INK}"/>`;
   const iconGroup = `<g transform="translate(${PAD_X},${iconTop}) scale(${ICON_SIZE/256})">${icon}</g>`;
 
   // name (right-aligned, vertically centered via dominant-baseline)
